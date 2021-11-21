@@ -1,0 +1,26 @@
+<svg id="Component_81_1" data-name="Component 81 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <filter id="Rectangle_1243" x="-10" y="-10" width="90" height="90" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#c2341c" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_1243)">
+        <rect id="Rectangle_1243-2" data-name="Rectangle 1243" width="60" height="60" rx="6" transform="translate(0 -0.37)" fill="#fff" stroke="#c2341c" stroke-width="1"/>
+      </g>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_37" data-name="Mask Group 37" transform="translate(0 0.374)" clip-path="url(#clip-path)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(0 0.039)">
+      <g id="invisible_box" data-name="invisible box">
+        <rect id="Rectangle_1242" data-name="Rectangle 1242" width="60" height="59.174" fill="none"/>
+      </g>
+      <g id="icons_Q2" data-name="icons Q2" transform="translate(8.75 2.466)">
+        <path id="Path_2920" data-name="Path 2920" d="M52.6,8.958c-12.375,0-21.25,9.986-21.25,22.19s14.375,26.259,19.5,31.313a2.4,2.4,0,0,0,3.5,0c5.125-5.054,19.5-18.862,19.5-31.313S64.979,8.958,52.6,8.958Zm0,48.326a119.5,119.5,0,0,1-8.375-9.369,18.73,18.73,0,0,1,16.75,0A119.5,119.5,0,0,1,52.6,57.284Zm-.25-21.2a8.63,8.63,0,1,1,8.75-8.63,8.69,8.69,0,0,1-8.75,8.63Z" transform="translate(-31.354 -8.958)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,1092 @@
+@media(max-width:992px) {
+    /*start navbar*/
+    .navbar .container-lg {
+        padding: 0rem;
+    }
+    .navbar {
+        padding: 0rem;
+    }
+    .navbar-brand {
+        margin: .5rem 0rem;
+        margin-left: .5rem;
+    }
+    .navbar-toggler {
+        font-size: 1rem;
+        padding: .15rem .4rem;
+        margin: .5rem 0rem;
+        margin-right: .5rem;
+    }
+    nav li {
+        border-bottom: 1px solid var(--transparent-grey);
+        background: var(--white);
+        transition: all .5s ease-in-out;
+    }
+    nav li:last-of-type {
+        padding-left: 15px;
+    }
+    nav li:last-of-type,
+    nav li:nth-of-type(6) {
+        border: none;
+    }
+    nav li:hover {
+        background-color: var(--red);
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: var(--black);
+        width: 100%;
+        padding-left: 15px;
+    }
+    nav.navbar .navbar-nav .nav-link:hover,
+    nav.navbar .navbar-nav li:hover a.nav-link,
+    nav.navbar .navbar-nav li:hover a.nav-link.active,
+    nav.navbar.sticky .navbar-nav .nav-link:hover,
+    nav.navbar.sticky .navbar-nav li:hover a.nav-link,
+    nav.navbar.sticky .navbar-nav li:hover a.nav-link.active {
+        color: var(--white);
+    }
+    /*stikynav*/
+    .newsletter {
+        margin-right: 1rem!important;
+        margin-left: 0rem!important;
+    }
+    .newsletter,
+    nav li:last-of-type:hover {
+        background: var(--white);
+    }
+    nav.navbar.sticky .newsletter .btn,
+    nav.navbar .newsletter .btn {
+        background: transparent;
+        color: var(--red);
+        border: 1px solid var(--red)
+    }
+    nav.navbar .newsletter .btn:hover {
+        background: linear-gradient(180deg, var(--red), var(--dark-red));
+        color: var(--white);
+        border: 1px solid var(--white)
+    }
+    .navbar-collapse.show {
+        background-color: var(--white);
+        border-bottom: 1px solid var(--white);
+        border-top: 1px solid var(--transparent-grey);
+        border-bottom: 1px solid var(--transparent-grey)
+    }
+    /*end nav*/
+}
+
+@media(max-width:767px) {
+    header {
+        background: linear-gradient( 183deg, var(--dark-gray), var(--dark-gray), var(--dark-gray)), url(../imgs/Mobile.jpg) center center no-repeat;
+        height: 394px;
+        background-size: cover;
+    }
+    header .overlay img {
+        width: 250px;
+    }
+    .navbar-brand img {
+        width: 100px!important;
+    }
+    nav.navbar.sticky .navbar-brand img {
+        width: 120px;
+    }
+    /*Modal*/
+    #newsletterModal .modal-dialog .modal-content {
+        padding: 10px 10px 10px;
+    }
+    #newsletterModal .modal-dialog .modal-content h5 {
+        margin-top: 10px;
+    }
+    /*error section*/
+    section.error {
+        margin-top: 50px;
+    }
+    /*font-of h2 in phone 30px and p 14px and 350pxwidth h2 is 23px*/
+    .About {
+        padding: 40px 0px 40px;
+    }
+    .About div.row>div {
+        padding-left: 20px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .About h2::after {
+        width: 240px;
+    }
+    .About p {
+        font-size: 14px;
+        margin: 0px;
+        padding: 0px;
+    }
+    /*achievements*/
+    .ourachievments {
+        padding: 40px 0px 0px;
+    }
+    .ourachievments .row>div {
+        margin-top: 30px;
+    }
+    .ourachievments ul li {
+        font-size: 17px;
+    }
+    .ourachievments ul li i {
+        font-size: 30px;
+    }
+    .ourachievments ul li img {
+        width: 30px;
+    }
+    .ourachievments h2::after {
+        width: 180px;
+        margin-bottom: -10px;
+    }
+    /*events and projects*/
+    .ourevents h2::after,
+    .lastProjects h2::after {
+        width: 120px;
+    }
+    .ourevents h4,
+    .lastProjects h4 {
+        font-size: 20px;
+    }
+    .ourevents h5,
+    .lastProjects h5 {
+        font-size: 15px;
+    }
+    .card-body {
+        padding: 1rem .5rem;
+    }
+    .ourevents .card .detail li,
+    .lastProjects .card .detail li {
+        font-size: 11px;
+    }
+    .ourevents .card p,
+    .lastProjects .card p {
+        font-size: 14.87px;
+    }
+    .lastProjects .card img,
+    .ourevents .card img {
+        height: 195px;
+        width: 100%
+    }
+    section.ourevents::after,
+    section.lastProjects::after,
+    section.Hierarchy::after {
+        display: none;
+    }
+    a.outline-cat-button {
+        font-size: 13px;
+        padding: 6px;
+        ;
+    }
+    /*Sponsors*/
+    .sponsors h2::after {
+        width: 130px;
+    }
+    .sponsors .carousel-inner {
+        gap: 0px
+    }
+    .sponsors .carousel-item {
+        width: 60px;
+        height: 40px;
+        border-radius: 4px;
+        transform: scaleZ(1.1);
+        padding: 0px 5px;
+        justify-content: center;
+        align-items: center
+    }
+    /*footer*/
+    footer .logo img {
+        width: 150px;
+        margin-bottom: 10px;
+    }
+    footer h3 {
+        font-size: 12px;
+        text-align: center;
+    }
+    footer p {
+        font-size: 10px;
+        text-align: center;
+    }
+    footer ul img {
+        width: 30px;
+        height: 30px;
+    }
+    footer li i {
+        font-size: 14px;
+        margin-left: 5px;
+        text-align: center;
+    }
+    footer li i:first-of-type {
+        margin-left: 0px;
+    }
+    footer ul:last-of-type {
+        padding-top: 3px;
+    }
+    footer .copyRight {
+        font-size: 10px;
+    }
+    header.about .row>div:first-of-type img {
+        width: 36px;
+        margin-top: 50px;
+    }
+    header.about {
+        height: 230px;
+    }
+    header.about .row>div:last-of-type::after,
+    header.about .row>div:first-of-type::after {
+        display: none;
+    }
+    header.about .row>div:last-of-type img {
+        max-width: 84%;
+        margin-left: 20px;
+    }
+    header.about::after {
+        width: 68.9%;
+        left: -104px;
+    }
+    header.about h1 {
+        font-size: 19px;
+        margin-top: 5px;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 1.3rem;
+        margin-top: -5px;
+    }
+    .events .dots {
+        display: none
+    }
+    .non-technical,
+    .technical {
+        padding: 60px 0px;
+    }
+    .technical h2 {
+        margin-bottom: 30px;
+    }
+    .non-technical .card h3,
+    .technical .card h3 {
+        font-size: 18px;
+    }
+    .technical .card h3 {
+        font-size: 13px;
+    }
+    .non-technical .card img,
+    .technical .card img {
+        max-width: 90%;
+    }
+    .technical .collapse a {
+        width: 102px;
+        font-size: 13px;
+        padding: 5px;
+    }
+    .non-technical .collapse h2,
+    .technical .collapse h2 {
+        font-size: 24px;
+    }
+    .non-technical .collapse h2::after {
+        width: 80px
+    }
+    .non-technical .collapse p,
+    .technical .collapse p {
+        font-size: 16px;
+        width: 98%;
+        text-justify: distribute-all-lines;
+    }
+    .technical .content {
+        margin-bottom: 0px;
+    }
+    .non-technical::before,
+    .technical::before,
+    .contactus::before,
+    section.Mission::before {
+        display: none
+    }
+    .non-technical::after,
+    .technical::after,
+    .contactus::after {
+        display: none
+    }
+    .card {
+        margin: 30px auto;
+        transition: all .5s linear;
+    }
+    .card.active {
+        margin-top: 30px;
+        transition: all .5s linear;
+    }
+    .History h2::after {
+        width: 140px;
+    }
+    header.about.aboutus .row>div:last-of-type img {
+        max-width: 92%;
+        margin-top: 85px;
+    }
+    header.about.aboutus {
+        height: 250px;
+    }
+    section.Hierarchy img {
+        max-width: 140px;
+        max-height: 170px;
+    }
+    section.Hierarchy li h4,
+    section.Board h4 {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 7px;
+    }
+    section.Hierarchy li h5,
+    section.Board h5 {
+        font-size: 11px;
+    }
+    .History.About h2::after {
+        width: 100px;
+    }
+    .Mission.About h2::after {
+        width: 180px;
+    }
+    section.Board img {
+        max-width: 140px;
+        max-height: 120px;
+    }
+    section.Board .dots {
+        display: none
+    }
+    section.Board ul {
+        margin-bottom: 20px;
+    }
+    footer .row div:last-of-type ul li {
+        margin-left: 3.4px;
+    }
+    footer .row div:nth-of-type(3) ul li {
+        margin-left: 3.4px;
+    }
+    .About ul:nth-of-type(2) {
+        order: 3;
+    }
+    .loading {
+        z-index: 10000;
+        font-size: 25px;
+    }
+    .loader img {
+        margin-top: 100px;
+        width: 190px;
+        height: 150px;
+        margin: 100px auto 200px;
+        left: 20%;
+        top: 100px;
+    }
+    .loader::before {
+        left: -290px;
+    }
+    .loader::after {
+        right: -387px;
+    }
+}
+
+@media (max-width: 576px) {
+    .modal-dialog {
+        max-width: 500px;
+    }
+    #newsletterModal .modal-dialog .modal-content img {
+        margin-top: 30px;
+        max-width: 90%;
+        margin-left: 30px
+    }
+    .loading {
+        z-index: 10000;
+        font-size: 30px;
+    }
+    .loader img {
+        margin-top: 100px;
+        width: 220px;
+        height: 150px;
+        margin: 100px auto 200px;
+        left: 24%;
+        top: 100px;
+    }
+}
+
+@media(max-width:430px) {
+    #newsletterModal .modal-dialog .modal-content img {
+        max-width: 95%;
+        margin-left: 10px
+    }
+    section.Board img {
+        max-width: 130px;
+        max-height: 120px;
+    }
+}
+
+@media(min-width:500px) and (max-width:767px) {
+    .sponsors .carousel-item {
+        width: 90px;
+        height: 70px;
+        padding: 3px;
+        border-radius: 4px;
+    }
+    .technical .card h3 {
+        font-size: 20px;
+    }
+    header.about.aboutus h1 {
+        font-size: 22px;
+    }
+    header.about.aboutus .row>div:last-of-type img {
+        max-width: 88%;
+        margin-top: 80px;
+    }
+    section.Hierarchy img,
+    section.Board img {
+        max-width: 180px;
+        max-height: 150px;
+    }
+    section.Hierarchy li h4,
+    section.Board h4 {
+        font-size: 15px;
+    }
+    section.Hierarchy li h5,
+    section.Board h5 {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:480px) {
+    header.about {
+        height: 210px;
+    }
+    header.about::after {
+        width: 78%;
+        left: -104px;
+    }
+    header.about h1 {
+        font-size: 16px;
+    }
+    header.about .row>div:first-of-type img {
+        width: 36px;
+        margin-top: 55px;
+    }
+    header.about .row>div:last-of-type img {
+        max-width: 100%;
+    }
+    section.Hierarchy img {
+        max-height: 120px;
+        max-width: 130px;
+    }
+    header.about.aboutus {
+        height: 225px;
+    }
+    section.Hierarchy li h4,
+    section.Board h4 {
+        font-size: 14px;
+    }
+    .sponsors .row .col-md-10 {
+        margin-left: 0px;
+    }
+}
+
+@media(max-width:400px) {
+    .sponsors .row .col-md-10 .carousel {
+        margin-right: -10px;
+    }
+}
+
+@media(max-width:351px) {
+    h2 {
+        font-size: 23px;
+    }
+    .About h2::after {
+        width: 200px
+    }
+    .About p {
+        font-size: 13px;
+    }
+    .ourachievments h2::after,
+    .ourevents h2::after {
+        width: 130px;
+    }
+    .card-body {
+        padding: 1rem .2rem;
+    }
+    footer .logo img {
+        width: 120px;
+        margin-bottom: 10px;
+    }
+    footer h3 {
+        font-size: 11px;
+    }
+    footer ul img {
+        width: 30px;
+        height: 30px;
+    }
+    footer li i {
+        font-size: 13px;
+    }
+    header.about {
+        height: 210px;
+    }
+    header.about::after {
+        width: 86%;
+    }
+    header.about h1 {
+        font-size: 15px;
+    }
+    header.about .row>div:last-of-type img {
+        max-width: 99%;
+    }
+    .History h2::after {
+        width: 140px;
+    }
+    .technical .collapse a {
+        width: 92px;
+        font-size: 12px;
+        padding: 3px;
+    }
+    section.Hierarchy img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    section.Hierarchy li h4,
+    section.Board h4 {
+        font-size: 12px;
+    }
+    section.Hierarchy li h5,
+    section.Board h5 {
+        font-size: 11px;
+        margin-top: -5px;
+    }
+    section.Board img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    section.Hierarchy li,
+    section.Board li {
+        max-width: 130px;
+        padding: 0px;
+    }
+    .sponsors .row .col-md-10 .carousel {
+        margin-right: 0px;
+    }
+}
+
+@media(max-width:340px) {
+    .sponsors .carousel-item {
+        width: 50px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    .sponsors h2::after {
+        width: 100px;
+    }
+    .technical .card h3 {
+        font-size: 12px;
+    }
+    .non-technical .collapse p,
+    .technical .collapse p {
+        font-size: 12px;
+    }
+    .technical .collapse h2 {
+        font-size: 21px;
+    }
+    header.about.aboutus .row>div:last-of-type img {
+        max-width: 92%;
+        margin-top: 75px;
+    }
+    header.about.aboutus {
+        height: 196px;
+    }
+}
+
+@media(max-width:290px) {
+    header.about,
+    header.about.aboutus {
+        height: 190px;
+    }
+    header.about .row div:first-of-type img {
+        width: 25px;
+    }
+    header.about h1 {
+        font-size: 12px;
+    }
+    header.about::after {
+        width: 93%;
+    }
+    header.about.aboutus::after {
+        width: 87%
+    }
+    .sponsors .carousel-item {
+        width: 40px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    .technical .collapse h2 {
+        font-size: 21px;
+    }
+    section.Hierarchy img {
+        max-width: 90px;
+        max-height: 90px;
+    }
+    section.Hierarchy li h4,
+    section.Board h4 {
+        font-size: 11px;
+    }
+    section.Hierarchy li h5,
+    section.Board h5 {
+        font-size: 10px;
+    }
+    section.Board img {
+        width: 110px;
+        height: 110px;
+    }
+    section.Board img {
+        max-width: 90px;
+        max-height: 100px;
+    }
+    section.Hierarchy li,
+    section.Board li {
+        max-width: 90px;
+        padding: 0px;
+    }
+}
+
+@media(min-width:768px) and (max-width:992px) {
+    header {
+        background: linear-gradient( 183deg, var(--dark-gray), var(--dark-gray), var(--dark-gray)), url(../imgs/ipad-slider.jpg) center center no-repeat;
+        background-size: cover;
+        height: 500px;
+        padding: 0px;
+    }
+    header .overlay img {
+        width: 320px;
+    }
+    .navbar-brand {
+        margin-left: 1.2rem;
+    }
+    .navbar-brand img {
+        width: 140px!important;
+    }
+    .navbar-toggler {
+        font-size: 1.2rem;
+        padding: .22rem .4rem;
+        margin-right: 1.2rem;
+    }
+    nav.navbar.sticky .navbar-brand img {
+        width: 120px;
+    }
+    .About {
+        padding: 30px 0px 30px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    .About h2::after {
+        width: 270px;
+    }
+    .About p {
+        font-size: 16px;
+        padding: 5px;
+    }
+    .About img {
+        max-width: 240px
+    }
+    .About div.row>div {
+        padding-left: 20px;
+    }
+    .ourachievments ul li {
+        font-size: 18px;
+    }
+    .ourachievments ul li img,
+    .ourachievments ul li i {
+        width: 33px;
+        font-size: 33px;
+    }
+    .ourevents h4,
+    .lastProjects h4 {
+        font-size: 28px;
+    }
+    .ourevents h5,
+    .lastProjects h5 {
+        font-size: 22px;
+    }
+    .ourevents .card .detail li,
+    .lastProjects .card .detail li {
+        font-size: 16px;
+    }
+    .ourevents .card p,
+    .lastProjects .card p {
+        font-size: 16.87px;
+    }
+    section.ourevents .card img,
+    section.lastProjects .card img {
+        height: 270px;
+        width: 100%;
+    }
+    section.ourevents::after,
+    section.lastProjects::after {
+        height: 170px;
+    }
+    .sponsors .carousel-inner {
+        gap: 2px
+    }
+    .sponsors .carousel-item {
+        width: 100px;
+        height: 80px;
+        transform: scaleZ(1.1);
+    }
+    footer .logo img {
+        width: 150px;
+        margin-top: -40px;
+    }
+    footer h3 {
+        font-size: 15px;
+    }
+    footer p {
+        font-size: 12px;
+    }
+    footer ul img {
+        width: 40px;
+        height: 30px;
+    }
+    footer li i {
+        font-size: 15px;
+        margin-left: 3px;
+    }
+    footer li i:first-of-type {
+        margin-left: 0px;
+    }
+    footer ul:last-of-type {
+        padding-top: 3px;
+    }
+    footer .copyRight {
+        font-size: 13px;
+    }
+    header.about {
+        height: 315px;
+    }
+    header.about .row>div:first-of-type img {
+        width: 50px;
+        margin-top: 100px;
+    }
+    header.about .row>div:last-of-type::after,
+    header.about .row>div:first-of-type::after {
+        width: 47px;
+    }
+    header.about .row>div:last-of-type img {
+        max-width: 78%;
+        margin-top: 160px;
+    }
+    header.about::after {
+        width: 63%;
+        left: -104px;
+    }
+    header.about h1 {
+        font-size: 33px;
+    }
+    .technical h2 {
+        margin-bottom: 30px;
+    }
+    .non-technical .card h3,
+    .technical .card h3 {
+        font-size: 20px;
+    }
+    .technical .card h3 {
+        font-size: 14px;
+    }
+    .non-technical .card img,
+    .technical .card img {
+        max-width: 90%;
+    }
+    .technical .card img {
+        max-height: 100px;
+    }
+    .technical .card:nth-of-type(3) h3 {
+        padding-bottom: 10px;
+    }
+    .technical .collapse a {
+        width: 160px;
+    }
+    .non-technical .collapse h2,
+    .technical .collapse h2 {
+        font-size: 24px;
+    }
+    .non-technical .collapse h2::after {
+        width: 80px
+    }
+    .non-technical .collapse p,
+    .technical .collapse p {
+        font-size: 16px;
+        width: 100%;
+    }
+    .technical .content {
+        margin-bottom: 40px;
+    }
+    .non-technical::before,
+    .technical::before,
+    .contactus::before {
+        display: none
+    }
+    .non-technical::after,
+    .technical::after,
+    .contactus::after {
+        display: none
+    }
+    .History h2::after {
+        width: 140px;
+    }
+    header.about.aboutus .row>div:last-of-type img {
+        max-width: 70%;
+        margin-top: 90px;
+    }
+    .Mission.About h2::after {
+        width: 270px;
+    }
+    .History.About img,
+    .Mission.About img {
+        max-width: 310px;
+        height: 290px;
+        margin-left: 5px;
+    }
+    .History.About p,
+    .Mission.About p {
+        font-size: 16px;
+    }
+    .History.About h2::after {
+        width: 160px;
+    }
+    .Mission.About h2::after {
+        width: 270px;
+    }
+    .Hierarchy.About img {
+        width: 230px;
+        height: 215px;
+    }
+    section.Board img {
+        max-width: 220px;
+        height: 170px;
+    }
+    section.Hierarchy li h4,
+    section.Board h4 {
+        font-size: 19px;
+    }
+    section.Hierarchy li h5,
+    section.Board h5 {
+        font-size: 15px;
+    }
+    section.Board ul {
+        margin-bottom: 20px;
+    }
+    .loading {
+        z-index: 10000;
+        font-size: 54px;
+    }
+    .loader img {
+        margin-top: 100px;
+        width: 290px;
+        height: 150px;
+        margin: 100px auto 200px;
+        left: 32%;
+        top: 100px;
+    }
+}
+
+@media(min-width: 993px) and (max-width: 1200px) {
+    .About {
+        padding: 50px 0px 40px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    .About h2::after {
+        width: 300px;
+    }
+    .About p {
+        font-size: 15.3px;
+    }
+    .About img {
+        max-width: 310px
+    }
+    footer .logo img {
+        width: 180px;
+        margin-top: -27px;
+    }
+    footer h3 {
+        font-size: 17px;
+    }
+    footer p {
+        font-size: 12px;
+    }
+    footer ul img {
+        width: 40px;
+        height: 30px;
+    }
+    footer li i {
+        font-size: 15px;
+        margin-left: 3px;
+    }
+    footer li i:first-of-type {
+        margin-left: 0px;
+    }
+    footer ul:last-of-type {
+        padding-top: 3px;
+    }
+    footer .copyRight {
+        font-size: 13px;
+    }
+    header.about {
+        height: 340px;
+    }
+    header.about .row>div:last-of-type::after,
+    header.about .row>div:first-of-type::after {
+        width: 48px;
+    }
+    header.about .row>div:last-of-type img {
+        max-width: 76%;
+        margin-top: 140px;
+    }
+    header.about::after {
+        width: 63%;
+        left: -104px;
+    }
+    header.about h1 {
+        font-size: 42px;
+    }
+    .technical h2 {
+        margin-bottom: 30px;
+    }
+    .non-technical .card h3,
+    .technical .card h3 {
+        font-size: 20px;
+    }
+    .technical .card h3 {
+        font-size: 17px;
+    }
+    .non-technical .card img,
+    .technical .card img {
+        width: 90%;
+    }
+    .technical .card img {
+        height: 120px;
+    }
+    .technical .card.ui h3 {
+        margin-bottom: 1px;
+    }
+    .technical .collapse a {
+        width: 160px;
+    }
+    .non-technical .collapse h2,
+    .technical .collapse h2 {
+        font-size: 29px;
+    }
+    .non-technical .collapse h2::after {
+        width: 90px
+    }
+    .non-technical .collapse p,
+    .technical .collapse p {
+        font-size: 16px;
+        width: 100%;
+    }
+    .technical .content {
+        margin-bottom: 40px;
+    }
+    header.about.aboutus .row>div:last-of-type img {
+        max-width: 61%;
+        margin-top: 90px;
+    }
+    .History.About img,
+    .Mission.About img {
+        max-width: 310px;
+        height: 290px;
+    }
+    .History.About p,
+    .Mission.About p {
+        font-size: 17px;
+    }
+    .History.About h2::after {
+        width: 160px;
+    }
+    .Mission.About h2::after {
+        width: 270px;
+    }
+    .Hierarchy.About img {
+        width: 180px;
+        height: 170px;
+    }
+    section.Board img {
+        max-width: 170px;
+    }
+    .events .dots img,
+    .Board .dots img {
+        width: 50px;
+        height: 120px;
+    }
+    section.Board ul {
+        margin-bottom: 80px;
+    }
+    .loading {
+        z-index: 10000;
+        font-size: 54px;
+    }
+    .loader img {
+        margin-top: 100px;
+        width: 290px;
+        height: 150px;
+        margin: 100px auto 200px;
+        left: 37%;
+        top: 100px;
+    }
+}
+
+@media(min-width:1201px) {
+    header.about {
+        height: 380px;
+    }
+    header.about .row>div:last-of-type img {
+        max-width: 63%;
+        margin-top: 140px;
+    }
+    .technical h2 {
+        margin-bottom: 30px;
+    }
+    .non-technical .card h3,
+    .technical .card h3 {
+        font-size: 23px;
+    }
+    .technical .card h3 {
+        font-size: 21px;
+    }
+    .non-technical .card img,
+    .technical .card img {
+        width: 90%;
+    }
+    .technical .card img {
+        height: 160px;
+    }
+    .technical .card.ui h3 {
+        margin-bottom: 1px;
+    }
+    .technical .collapse a {
+        width: 160px;
+    }
+    .non-technical .collapse h2,
+    .technical .collapse h2 {
+        font-size: 29px;
+    }
+    .non-technical .collapse h2::after {
+        width: 90px
+    }
+    .non-technical .collapse p,
+    .technical .collapse p {
+        font-size: 18px;
+        width: 100%;
+    }
+    .technical .content {
+        margin-bottom: 40px;
+    }
+    header.about.aboutus .row>div:last-of-type img {
+        max-width: 60%;
+        margin-top: 91px;
+    }
+    section.Board .container {
+        max-width: 1100px!important
+    }
+    .technical h2 {
+        margin-bottom: 77px;
+    }
+}

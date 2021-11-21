@@ -1,0 +1,15 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="invisible_box" data-name="invisible box">
+    <rect id="Rectangle_1237" data-name="Rectangle 1237" width="60" height="60" fill="none"/>
+  </g>
+  <g id="icons_Q2" data-name="icons Q2" transform="translate(5 5)">
+    <path id="Path_2912" data-name="Path 2912" d="M44,16.5A2.5,2.5,0,0,1,41.5,14V9h-5a2.5,2.5,0,0,1,0-5H44a2.5,2.5,0,0,1,2.5,2.5V14A2.5,2.5,0,0,1,44,16.5Z" transform="translate(3.5 -4)" fill="#fff"/>
+    <path id="Path_2913" data-name="Path 2913" d="M44,34.5H36.5a2.5,2.5,0,0,1,0-5h5v-5a2.5,2.5,0,0,1,5,0V32A2.5,2.5,0,0,1,44,34.5Z" transform="translate(3.5 0.5)" fill="#fff"/>
+    <path id="Path_2914" data-name="Path 2914" d="M6.5,16.5A2.5,2.5,0,0,1,4,14V6.5A2.5,2.5,0,0,1,6.5,4H14a2.5,2.5,0,0,1,0,5H9v5A2.5,2.5,0,0,1,6.5,16.5Z" transform="translate(-4 -4)" fill="#fff"/>
+    <path id="Path_2915" data-name="Path 2915" d="M14,34.5H6.5A2.5,2.5,0,0,1,4,32V24.5a2.5,2.5,0,0,1,5,0v5h5a2.5,2.5,0,0,1,0,5Z" transform="translate(-4 0.5)" fill="#fff"/>
+    <g id="Group_1148" data-name="Group 1148" transform="translate(7.5 7.5)">
+      <path id="Path_2916" data-name="Path 2916" d="M42.5,49.5h-30A2.5,2.5,0,0,1,10,47V37.125l1.25-.75a32.375,32.375,0,0,1,32.5,0l1.25.75V47A2.5,2.5,0,0,1,42.5,49.5Z" transform="translate(-10 -4.5)" fill="#fff"/>
+      <path id="Path_2917" data-name="Path 2917" d="M26.25,10A11.25,11.25,0,1,0,37.5,21.25,11.25,11.25,0,0,0,26.25,10Z" transform="translate(-8.75 -10)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

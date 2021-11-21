@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="CAT Reloaded Team in Mansoura University"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="imgs/titleCatLogo.svg"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Poppins:wght@400;500&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Fruktur&family=Lobster+Two&family=Poppins:wght@400;500&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Fruktur&family=Lobster+Two&family=Poppins:wght@400;500&family=Raleway:wght@700&family=Ultra&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./CSS/Normalize.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/media.css" />
+    <title>CAT Reloaded</title>
+  </head>
+
+  <body>
+    <!--start navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light" id="nav">
+      <div class="container-lg">
+        <a class="navbar-brand" href="index.html"
+          ><img src="./imgs/navLogo.svg" alt="navLogo"
+        /></a>
+
+        <button
+          class="navbar-toggler topmenu"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li
+              class="
+                nav-item
+                align-items-lg-center
+                d-flex
+                justify-content-lg-center
+              "
+            >
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li
+              class="
+                nav-item
+                align-items-lg-center
+                justify-content-lg-center
+                d-flex
+              "
+            >
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li
+              class="
+                nav-item
+                align-items-lg-center
+                d-flex
+                justify-content-lg-center
+              "
+            >
+              <a class="nav-link" href="Events.html">Events</a>
+            </li>
+            <li
+              class="
+                nav-item
+                align-items-lg-center
+                d-flex
+                justify-content-lg-center
+              "
+            >
+              <a class="nav-link" href="https://blog.catreloaded.org"
+                >CATazine</a
+              >
+            </li>
+            <li
+              class="
+                nav-item
+                align-items-lg-center
+                d-flex
+                justify-content-lg-center
+              "
+            >
+              <a class="nav-link" href="Committees.html">Committees</a>
+            </li>
+            <li
+              class="
+                nav-item
+                align-items-lg-center
+                d-flex
+                justify-content-lg-center
+              "
+            >
+              <a class="nav-link" href="ContactUs.html">Contact Us</a>
+            </li>
+            <li class="nav-item d-lg-none">
+              <span class="navbar-text d-grid gap-2 mx-2 newsletter">
+                <button
+                  type="button"
+                  class="btn btn-large"
+                  data-bs-toggle="modal"
+                  data-bs-target="#newsletterModal"
+                >
+                  newsletter
+                </button>
+              </span>
+            </li>
+          </ul>
+          <span
+            class="navbar-text d-grid gap-2 mx-2 newsletter d-none d-lg-grid"
+          >
+            <button
+              type="button"
+              class="btn btn-large hvr-shutter-in-vertical"
+              data-bs-toggle="modal"
+              data-bs-target="#newsletterModal"
+            >
+              newsletter
+            </button>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <!--end navbar-->
+    <!--start header-->
+    <header class="container-fluid position-relative mainheader">
+      <div
+        class="overlay d-flex justify-content-center align-items-center wow"
+        data-wow-duration="1s"
+      >
+        <img
+          src="./imgs/logoheader.svg"
+          class="img-responsive img-fluid"
+          alt="sliderLogo"
+        />
+      </div>
+    </header>
+    <!--About section -->
+
+    <section class="About">
+      <div class="container-lg">
+        <div class="row">
+          <div
+            class="col-md-7 col-lg-6 wow leftanimate"
+            data-wow-duration="1.5s"
+          >
+            <h2>About CAT Reloaded?</h2>
+            <p class="lead py-3 pb-md-0">
+              CAT
+              <q>a non-profit foundation focused on</q>. Computer Science and IT
+              specially Open Source technologies. CAT's primary goal was to
+              create an IT community in Mansoura University that is dynamic,
+              innovative and highly scalable for the undergraduate computer
+              engineering/science students, that would help them achieve a good
+              level of technical proficiency through projects and seminars.
+            </p>
+            <a
+              class="btn outline-cat-button"
+              target="_blank"
+              href="https://www.facebook.com/CATReloaded"
+            >
+              Read More ...
+            </a>
+          </div>
+          <div
+            class="
+              col-md-5
+              justify-content-center
+              d-none d-md-flex
+              col-lg-6
+              wow
+              animate__fadeInRight
+            "
+            data-wow-duration="1.5s"
+          >
+            <img
+              src="./imgs/Vector.svg "
+              class="img-responsive img-fluid"
+              alt="About Cat Reloaded "
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--achievments section -->
+    <section class="ourachievments">
+      <div class="container-lg justify-content-center">
+        <h2 class="wow animate__slideInDown" data-wow-duration="1s">
+          More than 25 years of CATian
+        </h2>
+        <div
+          class="row pt-5 pb-3 wow animate__fadeInUp"
+          data-wow-duration="1.5s"
+        >
+          <div class="col-4 col-md-2 col-lg-2">
+            <ul
+              class="
+                list-unstyled
+                d-flex
+                justify-content-center
+                flex-column
+                gap-1
+                align-items-center
+              "
+            >
+              <li><i class="fas fa-video"></i></li>
+              <li><span data-count="15 ">15</span>K</li>
+              <li>Views</li>
+            </ul>
+          </div>
+
+          <div class="col-4 col-md-2 col-lg-2">
+            <ul
+              class="
+                list-unstyled
+                d-flex
+                justify-content-center
+                flex-column
+                gap-1
+                align-items-center
+              "
+            >
+              <li><i class="fas fa-users"></i></li>
+              <li><span data-count="7 ">7</span>K</li>
+              <li>Audience</li>
+            </ul>
+          </div>
+
+          <div class="col-4 col-md-2 col-lg-2">
+            <ul
+              class="
+                list-unstyled
+                d-flex
+                justify-content-center
+                flex-column
+                gap-1
+                align-items-center
+              "
+            >
+              <li><i class="fas fa-map-marker-alt"></i></li>
+              <li><span data-count="50 ">50</span>+</li>
+              <li>Workshops</li>
+            </ul>
+          </div>
+
+          <div class="col-4 col-md-2 col-lg-2">
+            <ul
+              class="
+                list-unstyled
+                d-flex
+                justify-content-center
+                flex-column
+                gap-1
+                align-items-center
+              "
+            >
+              <li><i class="fas fa-code-branch"></i></li>
+              <li><span data-count="5 ">5</span>+</li>
+              <li>Projects</li>
+            </ul>
+          </div>
+
+          <div class="col-4 col-md-2 col-lg-2">
+            <ul
+              class="
+                list-unstyled
+                d-flex
+                justify-content-center
+                flex-column
+                gap-1
+                align-items-center
+              "
+            >
+              <li><i class="fas fa-calendar-alt"></i></li>
+              <li><span data-count="50 ">50</span>+</li>
+              <li>Events</li>
+            </ul>
+          </div>
+
+          <div class="col-4 col-md-2 col-lg-2">
+            <ul
+              class="
+                list-unstyled
+                d-flex
+                justify-content-center
+                flex-column
+                gap-1
+                align-items-center
+              "
+            >
+              <li><img src="./imgs/session.svg " alt="sessions " /></li>
+              <li><span data-count="200 ">200</span>+</li>
+              <li>Sessions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--our events section -->
+    <section class="ourevents">
+      <div class="container-sm">
+        <h2 class="wow animate__fadeIn" data-wow-duration="1.5s">Our Events</h2>
+        <div class="row justify-content-center">
+          <div
+            class="col-md-10 col-lg-11 col-xl-10 wow animate__fadeIn"
+            data-wow-duration="2s"
+          >
+            <div
+              id="events"
+              class="carousel carousel-dark slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#events"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#events"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#events"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                  <div class="card hvr-curl-top-left">
+                    <div class="row g-0">
+                      <div class="col-md-12 col-lg-4">
+                        <img
+                          src="https://scontent.fcai19-5.fna.fbcdn.net/v/t39.30808-6/p960x960/251539191_6289919874415894_2407522567039050438_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=340051&_nc_ohc=GeYwrh2F1yUAX_DTj6j&_nc_ht=scontent.fcai19-5.fna&oh=514e35d543fe043679a4544c38c24850&oe=619819E6"
+                          class="img-fluid rounded"
+                          alt="event1"
+                        />
+                      </div>
+                      <div class="col-md-12 col-lg-8">
+                        <div class="card-body">
+                          <h4 class="card-title">Hello, World! 6.0</h4>
+                          <ul class="row list-unstyled detail">
+                            <li
+                              class="col-5 col-sm-5 col-md-6 col-lg-4 col-xl-3"
+                            >
+                              <i class="fas fa-calendar-alt"></i> 9 - 10 Nov
+                            </li>
+                            <li class="col-7 col-sm-7 col-md-6 col-lg-6">
+                              <i class="fas fa-map-marker-alt"></i> ITI -
+                              Mansoura Branch
+                            </li>
+                          </ul>
+                          <p class="card-text lead">
+                            Hello, World!" is a local event with a bunch of
+                            sessions introduced by engineers that aim to: -Help
+                            you to choose your track -Enlight students to reach
+                            their goals -Know the challenges of each track (pros
+                            & cons) And they can answer your questions. Don't
+                            forget to always print ( "Hello, World!") Stay
+                            tuned... Be ready.
+                          </p>
+                          <a
+                            class="btn outline-cat-button"
+                            target="_blank"
+                            href="https://fb.me/e/4xP493lK2"
+                          >
+                            Read More
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2000">
+                  <div class="card hvr-curl-top-left">
+                    <div class="row g-0">
+                      <div class="col-md-12 col-lg-4">
+                        <img
+                          src="https://scontent.fcai19-5.fna.fbcdn.net/v/t39.30808-6/p960x960/248434942_6251562961584919_8261830462659261855_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=340051&_nc_ohc=dlwl74EcTDsAX_3Nbjb&_nc_ht=scontent.fcai19-5.fna&oh=18b728c87c6493417acdf3f12d6cad1f&oe=61981187"
+                          class="img-fluid rounded"
+                          alt="event2"
+                        />
+                      </div>
+                      <div class="col-md-12 col-lg-8">
+                        <div class="card-body">
+                          <h4 class="card-title">كات بوث ٦</h4>
+                          <ul class="row list-unstyled detail">
+                            <li
+                              class="col-5 col-sm-5 col-md-6 col-lg-4 col-xl-3"
+                            >
+                              <i class="fas fa-calendar-alt"></i> 25 - 27 Oct
+                            </li>
+                            <li class="col-7 col-sm-7 col-md-6 col-lg-6">
+                              <i class="fas fa-map-marker-alt"></i> Faculty of
+                              Engineering - MU
+                            </li>
+                          </ul>
+                          <p class="card-text lead" dir="rtl" lang="ar">
+                            كل مغامرة تتطلب خطوة أولى، وها قد بدأت مغامرة هذا
+                            العام. مع بداية كل عام دراسي تقوم الـ CAT بإحياء
+                            المراسم السنوية واستعادة طلّتها بتنظيم Booth خاص
+                            بهذا الكيان العظيم، لتعريفكم بنا وبرؤيتنا ومهمتنا
+                            وأحداثنا السنوية والمشاريع التي نفذناها والمشاريع
+                            التي ننفذها الآن! يستمر CAT Booth لمدة ثلاثة أيام في
+                            كلية الهندسة جامعة المنصورة وسنكون مستعدين للقاء بكم
+                            في مبنى كلية هندسة ننتظر الطلاب الجدد والقدامى
+                            لتعريفكم بنا ونتحرّق شوقًا لرؤياكم!
+                          </p>
+                          <a
+                            class="btn outline-cat-button"
+                            target="_blank"
+                            href="https://fb.me/e/1Dq0dbxye"
+                          >
+                            Read More
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2000">
+                  <div class="card hvr-curl-top-left">
+                    <div class="row g-0">
+                      <div class="col-md-12 col-lg-4">
+                        <img
+                          src="./imgs/event1.png"
+                          class="img-fluid rounded"
+                          alt="event3"
+                        />
+                      </div>
+                      <div class="col-md-12 col-lg-8">
+                        <div class="card-body">
+                          <h4 class="card-title">CAT Quarter Century</h4>
+                          <ul class="row list-unstyled detail">
+                            <li
+                              class="col-5 col-sm-5 col-md-6 col-lg-4 col-xl-3"
+                            >
+                              <i class="fas fa-calendar-alt"></i> 2 - 9
+                              September
+                            </li>
+                            <li class="col-7 col-sm-7 col-md-6 col-lg-6">
+                              <i class="fas fa-map-marker-alt"></i>
+                              Our Facebook Page
+                            </li>
+                          </ul>
+                          <p class="card-text lead">
+                            Forgetting is no longer possible; the memories have
+                            become so plentiful and are about to explode with
+                            all the good and the great that we have been
+                            through, so are you ready?!…
+                          </p>
+                          <br />
+                          <br />
+                          <a
+                            class="btn outline-cat-button"
+                            target="_blank"
+                            href="https://fb.me/e/3WIjbZKfa"
+                          >
+                            Read More
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--our events section -->
+    <section class="lastProjects">
+      <div class="container-sm">
+        <h2 class="wow animate__fadeIn" data-wow-duration="1.5s">
+          Last Projects
+        </h2>
+        <div class="row justify-content-center">
+          <div
+            class="col-md-10 col-lg-11 col-xl-10 wow animate__fadeIn"
+            data-wow-duration="2s"
+          >
+            <div
+              id="latestProject"
+              class="carousel carousel-dark slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#latestProject"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#latestProject"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                  <div class="card hvr-curl-top-left">
+                    <div class="row g-0">
+                      <div class="col-md-12 col-lg-4">
+                        <img
+                          src="./imgs/kawen.png"
+                          class="img-fluid rounded"
+                          alt="project1"
+                        />
+                        <div class="overlay">
+                          <h5>Soon..</h5>
+                          <div class="progress">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-12 col-lg-8">
+                        <div class="card-body">
+                          <h4 class="card-title">Kawen</h4>
+                          <p class="card-text lead">
+                            About Kawen Kawen is an interactive learning website
+                            for computer science fields that are provided by CAT
+                            reloaded team. Kawen provides the learning paths for
+                            its computer science fields for the learners from
+                            multi-sources like youtube, udemy, lynda, edx, etc)
+                            based on the learning path for each technical circle
+                            in the CAT team.
+                          </p>
+                          <a
+                            class="btn outline-cat-button"
+                            target="_blank"
+                            href="https://www.behance.net/gallery/107550583/Kawen-interactive-CS-learning-website?tracking_source=search_users_null"
+                          >
+                            Read More..
+                          </a>
+                          <a class="btn outline-cat-button active">
+                            Waiting...
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2000">
+                  <div class="card hvr-curl-top-left">
+                    <div class="row g-0">
+                      <div class="col-md-12 col-lg-4">
+                        <img
+                          src="./imgs/kawen.png"
+                          class="img-fluid rounded"
+                          alt="project2"
+                        />
+                        <div class="overlay">
+                          <h5>Soon..</h5>
+                          <div class="progress">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-12 col-lg-8">
+                        <div class="card-body">
+                          <h4 class="card-title">Kawen</h4>
+                          <p class="card-text lead">
+                            About Kawen Kawen is an interactive learning website
+                            for computer science fields that are provided by CAT
+                            reloaded team. Kawen provides the learning paths for
+                            its computer science fields for the learners from
+                            multi-sources like youtube, udemy, lynda, edx, etc)
+                            based on the learning path for each technical circle
+                            in the CAT team.
+                          </p>
+                          <a
+                            class="btn outline-cat-button"
+                            target="_blank"
+                            href="https://www.behance.net/gallery/107550583/Kawen-interactive-CS-learning-website?tracking_source=search_users_null"
+                          >
+                            Read More..
+                          </a>
+                          <a class="btn outline-cat-button active">
+                            Waiting...
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Sponsors section-->
+    <section class="sponsors">
+      <h2 class="wow animate__fadeInDown" data-wow-duration="1s">
+        Our Sponsors
+      </h2>
+      <div class="container-sm">
+        <div
+          class="row d-flex justify-content-center wow animate__fadeInUp"
+          data-wow-duration="1.5s"
+        >
+          <div class="col-md-10">
+            <div
+              id="Oursponsor"
+              class="carousel carousel-dark slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner row justify-content-center">
+                <div class="carousel-item active" data-bs-interval="2000">
+                  <img src="./imgs/sponsers-logos/fab-lab.png" alt="sponsor1" />
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img
+                    src="./imgs/sponsers-logos/logo-blue.png"
+                    alt="sponsor2"
+                  />
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img
+                    src="./imgs/sponsers-logos/optimous.png"
+                    alt="sponsor3"
+                  />
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="./imgs/sponsers-logos/Robusta.png" alt="sponsor4" />
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="./imgs/sponsers-logos/triago.png" alt="sponsor5" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+      <div class="container">
+        <div class="row d-flex justify-content-sm-center flex-wrap">
+          <div class="col-md-3 logo pb-2 justify-content-center d-flex">
+            <img
+              src="./imgs/navLogo.svg"
+              class="img-responsive img-fluid"
+              alt="footerLogo"
+            />
+          </div>
+          <div class="col-md-3 py-2">
+            <h3><i class="fas fa-map-marker-alt"></i> LOCATION</h3>
+            <p>Faculty of Engineering, Mansoura University, Dakhliya, Egypt</p>
+          </div>
+
+          <div class="col-md-3 col-sm-4 px-3 col-6 px-lg-0 py-2">
+            <h3 class="text-center">ANNUAL PARTNER</h3>
+            <ul
+              class="list-unstyled d-flex justify-content-center gap-1 flex-row"
+            >
+              <li>
+                <img
+                  src="./imgs/triago.png"
+                  class="img-responsive img-fluid"
+                  alt="sposnsor"
+                />
+              </li>
+              <li>
+                <img
+                  src="./imgs/sponsers-logos/optimous.png"
+                  class="img-responsive img-fluid"
+                  alt="sponsor"
+                />
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 py-2 px-3 px-lg-0 col-6 col-sm-4">
+            <h3 class="text-center">FOLLOW US</h3>
+            <ul
+              class="list-unstyled d-flex gap-2 flex-row justify-content-center"
+            >
+              <li>
+                <a href="https://www.facebook.com/CATReloaded" target="_blank"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/CATReloaded" target="_blank"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/user/C4TReloaded"
+                  target="_blank"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/CATReloaded" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.linkedin.com/company/cat-reloaded/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="copyRight text-center">
+        copyRight &copy; 2021 All Right Reserved by CATReloaded Technical
+      </div>
+    </footer>
+
+    <!--newsletter Modal-->
+    <div
+      class="modal fade"
+      id="newsletterModal"
+      tabindex="-1"
+      aria-labelledby="ModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close align-self-end"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+
+          <div class="row">
+            <div
+              class="
+                col-md-6 col-sm-6 col-lg-6
+                align-items-center
+                justify-content-center
+              "
+            >
+              <img
+                src="imgs/subscribe.svg"
+                class="img-fluid img-responsive"
+                alt="modalSubscribeVector"
+              />
+            </div>
+            <div class="col-md-6 col-sm-6 col-lg-6 content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="ModalLabel">
+                  Subscribe to our Newsletter!
+                </h5>
+              </div>
+              <div class="modal-body">
+                <p>
+                  We'll informed you with our new blogs and the latest updates!
+                </p>
+                <form class="row g-3">
+                  <div>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="username"
+                      name="username"
+                      value=""
+                      placeholder="Name"
+                    />
+                  </div>
+                  <div class="">
+                    <input
+                      type="Email"
+                      class="form-control"
+                      id="inputEmail"
+                      name="email"
+                      value=""
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div>
+                    <button type="submit" class="btn col-12">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--loader
+    <section class="spinner-container">
+        <div class="spinner"><span class="spinner__leter" letter="C">C</span><span class="spinner__leter" letter="A">A</span><span class="spinner__leter" letter="T">T</span><span class="spinner__leter" letter=" "> </span><span class="spinner__leter" letter="R">R</span>
+            <span
+                class="spinner__leter" letter="E">E</span><span class="spinner__leter" letter="L">L</span><span class="spinner__leter" letter="O">O</span><span class="spinner__leter" letter="A">A</span><span class="spinner__leter" letter="D">D</span><span class="spinner__leter" letter="E">E</span>
+                <span
+                    class="spinner__leter" letter="D">D</span>
+        </div>
+    </section>
+-->
+
+    <section class="loader">
+      <img
+        src="imgs/catBlack.svg"
+        class="animate__bounceInDown wow"
+        data-wow-duration="3s"
+      />
+
+      <div class="loading loading01">
+        <span class="wow animate__zoomOutRight" data-wow-duration="2s">C</span>
+        <span class="wow animate__zoomOutRight" data-wow-duration="2s">A</span>
+        <span class="wow animate__zoomOutRight" data-wow-duration="2s">T</span>
+        <span class="wow animate__zoomOutRight" data-wow-duration="2s">R</span>
+        <span class="wow animate__zoomOutRight" data-wow-duration="2s">e</span>
+        <span class="wow animate__zoomOutRight" data-wow-duration="2s">l</span>
+        <span class="wow animate__zoomOutRight" data-wow-duration="2s">o</span>
+        <span class="wow animate__zoomOutRight" data-wow-duration="2s">d</span>
+        <span class="wow animate__zoomOutRight" data-wow-duration="2s">e</span>
+        <span class="wow animate__zoomOutRight" data-wow-duration="2s">d</span>
+      </div>
+    </section>
+
+    <button type="button" class="btn btn-floating btn-md" id="btn-back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/wow.min.js "></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
